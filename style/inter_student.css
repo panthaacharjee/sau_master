@@ -1,0 +1,816 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+
+.row{
+    margin-right: 4px !important;
+    margin-left: 2px !important;
+}
+
+.about_sau_top_link{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 1% 0%;
+    /* margin: 0vh 5vw 0vh 5vw; */
+}
+
+.inter_student_main {
+    background-image: url(../image/inter_student_covewr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 18vh 5vw 0vw 5vw;  */
+    
+    
+}
+
+.inter_student {
+    margin: 18vh 5vw 0vw 5.6vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px ;
+}
+
+.inter_student_cover_left {
+    width: 40%;
+    background: rgba(21, 62, 144, 0.83);
+    padding: 4%;
+}
+
+.inter_student_cover {
+    display: flex;
+}
+
+.inter_student_cover_right {
+    width: 60%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 84px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding: 4%;
+}
+
+.inter_student_cover_left_component {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+    margin-bottom: 25px;
+}
+
+.inter_student_cover_left_component p a{
+    text-decoration: none;
+    color: #fff;
+}
+.inter_student_cover_left p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 20px !important;
+}
+
+.inter_student_cover_left_component p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: no      rmal;
+    font-size: 23.1527px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 0px !important;
+    margin-left: 15px;
+}
+
+
+/* inter student responsive css start  */
+
+
+@media screen and (max-width :800px) {
+    .inter_student_cover_left p {
+        font-size: 18.87px;
+        margin-bottom: 15px;
+    }
+
+    .inter_student_cover_left_component p {
+        font-size: 12.153px !important;
+    }
+    .inter_student_cover_left_component{
+        margin-bottom: 10px;
+    }
+
+    .inter_student_cover_left_component img {
+        height: 12px;
+    }
+
+    .inter_student_cover_right {
+        font-size: 32px;
+    line-height: 32px;
+    padding: 12%;
+    }
+
+    .card-body {
+        min-height: auto !important;
+    }
+
+    .fandc_main p {
+        font-size: 45px !important;
+    }
+
+    .testimonial_slider_main img {
+        margin-bottom: 600px !important;
+    }
+    .inter_student {
+        margin-top: 95px;
+        margin-left: 2.4vw;
+    }
+    .about_sau_top_link{
+        padding: 1% 5%;
+    }
+}
+
+@media screen and (max-width :550px) {
+    .inter_student_cover {
+        flex-wrap: wrap;
+    }
+    .inter_student {
+        margin-top: 89px;
+        margin-left: 5vw;
+    }
+    .inter_student_main {
+        margin-top: 5px;
+        margin-left: 13px;
+    }
+    .inter_card {
+        margin: 2vh 5vw 0vh 7.3vw !important;
+    }
+    .inter_student_cover_left {
+        width: 100% !important;
+        background: rgba(21, 62, 144, 0.83);
+        padding: 4%;
+    }
+    .card {
+        width: 100% !important;
+        margin-top: 3% !important;
+    }
+    .card {
+        width: 100% !important;
+        margin-top: 2% !important;
+    }
+
+    .inter_student_cover_right {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 15% 4% !important;
+    }
+    .about_sau_top_link{
+            padding: 1% 2%;
+    }
+    .inter_student_cover_left_component {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px !important;
+    }
+    .inter_student_cover_left p {
+        /* margin-bottom: 10px !important; */
+    }
+    .about_sau_top_link a img{
+        margin-bottom: 6px;
+    }
+}
+@media screen and (max-width:490px) {
+    .inter_card{
+        margin: -5vh 5vw 0vh 7.9vw !important;
+    }
+}
+@media screen and (max-width:400px) {
+    
+    .inter_card{
+        margin: -4vh 3vw 0vh 3.6vw !important;
+    }
+    
+}
+
+/* inter student responsive css end  */
+
+/* inter student css end  */
+
+
+/* services css start  */
+.inter_card {
+    margin: 2vh 3.4vw 2vh 5.9vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.inter_card_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    /* margin: 0px 1.6%; */
+}
+
+.card img {
+    /* height: 45% !important; */
+}
+
+.card-body {
+    background: #F7F7F7 !important;
+    padding: 1rem !important;
+}
+
+.inter_card_arrow_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0268px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.inter_card_arrow_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.0943px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 27px;
+    margin-bottom: 20px !important;
+}
+
+.inter_card_bottom_link {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.inter_card_bottom_link img {
+    height: 10px;
+}
+
+.inter_card_bottom_link p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.4972px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-left: 10px;
+}
+.inter_card_bottom_link p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.card-img-top {
+    /* height: 130px !important; */
+}
+
+@media screen and (max-width :800px) {
+    .card-body {
+        min-height: auto !important;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .card {
+        width: 100% !important;
+        margin-top: 3% !important;
+    }
+    .fandc {
+        margin: 2vh 5vw 0vh 8vw !important;
+    }
+    .testimonial {
+        margin: 2vh 5vw 2vh 5vw;
+    }
+    .testimonial_slider_main {
+        margin-top: 70px;
+    }
+    .fandc_main p{
+        font-size: 18px !important;
+    }
+}
+
+
+/* services css end  */
+
+
+
+
+
+
+/* fand c css end  */
+
+
+
+
+
+/* testimonial css start  */
+.testimonial {
+    margin: 6vh 5vw 10vh 5vw;
+}
+
+.testimonial_slider_main {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    background-color: #F7F7F7;
+    margin-top: 115px;
+    padding: 10px;
+}
+.testimonial_slider_div{
+    margin-left: 24px;
+}
+
+.testimonial_slider_main img {
+    position: absolute;
+    margin-bottom: 400px;
+    border-radius: 50%;
+}
+
+
+.testimonial_main_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    color: #1D1D1D;
+    margin-left: 77px;
+    margin-bottom: 50px !important;
+}
+
+
+.testimonial_slider_main_p1 {
+    margin-top: 130px;
+    font-size: 36px;
+}
+
+.testimonial_slider_main_p2 {
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 18px;
+    line-height: 28px !important;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1D1D1D;
+    margin-bottom: 30px !important;
+}
+
+.testimonial_slider_main_p3 {
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 24px;
+    line-height: 34px !important;
+    text-align: center !important;
+    letter-spacing: 0.01em !important;
+    color: #000000;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.home_arrow_prev {
+    background-color: #E0E0E0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -12%;
+    margin-left: -0.5%;
+}
+
+.home_arrow_next {
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 88%;
+}
+
+.home_arrow_next span img {
+    height: 42px;
+    height: 55px;
+    padding: 16px 22px 10px;
+}
+
+.home_arrow_prev span img {
+    height: 42px;
+    padding: 12px 10px;
+    padding: 12px 15px;
+    height: 55px;
+    padding: 16px 18px 10px;
+}
+
+.testimonial_slider_main_p2 {
+    font-size: 25px !important;
+}
+
+.testimonial_slider {
+    position: relative;
+}
+
+.testimonial_slider_main_p3 {
+    font-size: 25px !important;
+    text-align: justify !important;
+}
+.home_arrow_prev {
+    margin-top: -12%;
+    margin-left: 1.5% !important;
+}
+.home_arrow_next {
+    margin-top: -12%;
+}
+@media screen and (max-width :1280px) {
+    .home_arrow_next {
+        margin-top: -20%;
+    }
+
+    .home_arrow_prev {
+        margin-top: -19.4%;
+        margin-left: 1.5% !important;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .home_arrow_next {
+        margin-top: -22.1%;
+        margin-right: -5% !important;
+    }
+
+    .home_arrow_prev {
+        margin-top: -22%;
+        margin-left: 0% !important;
+    }
+    .testimonial_slider_div {
+        margin-left: 14px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .home_arrow_next {
+        margin-top: -34%;
+    }
+    .home_arrow_next {
+        margin-left: 87%;
+    }
+    .home_arrow_next {
+        margin-top: -27%;
+    }
+    .home_arrow_prev {
+        margin-left: -1%;
+    }
+    .home_arrow_prev {
+        margin-top: -26.4%;
+    }
+    .testimonial_slider_main img {
+        position: absolute;
+        margin-bottom: 476px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .home_arrow_next {
+        margin-top: -60%;
+        margin-left: 84%;
+    }
+
+    .home_arrow_prev {
+        margin-top: -60%;
+        margin-left: -4%;
+    }
+
+    .home_arrow_next span img {
+        height: 45px;
+        padding: 15px 20px 12px;
+    }
+
+    .home_arrow_prev span img {
+        height: 45px;
+        padding: 15px 20px 12px;
+    }
+
+    .home_arrow_prev {
+        height: 50px;
+        width: 50px;
+    }
+
+    .home_arrow_next {
+        height: 50px;
+        width: 50px;
+    }
+    .fandc_component p{
+        font-size: 12px !important;
+    }
+    .fandc_component img{
+        height: 12px;
+    }
+    .fandc_component{
+        margin-top: -8px;
+    }
+    .inter_card_bottom_link{
+        margin-top: 12px;
+    }
+    .testimonial {
+        margin: 5vh 5vw 2vh 5vw;
+    }
+    .testimonial_main_p1 {
+        line-height: 48px;
+        margin-left: 0px;
+        font-size: 31px !important;
+    }
+    testimonial_slider_main_p3 {
+        line-height: 28px;
+    }
+    .testimonial_slider_main_p3 {
+        font-size: 15px !important;
+        padding: 6%;
+        line-height: 24px !important;
+    
+    }
+    .home_arrow_next {
+        margin-top: -30vh !important;
+    }
+    .home_arrow_next {
+        margin-left: 80% !important;
+    }
+    .testimonial_slider_main{
+        margin-top: 90px;
+    }
+    .testimonial_slider_div{
+        margin-left: 0px !important;
+    }
+}
+@media screen and (max-width: 520px) {
+    .home_arrow_next span img {
+        height: 41px;
+        padding: 7px 10px 15px;
+        margin: 7px;
+    }
+    .home_arrow_next {
+        height: 45px;
+        width: 45px;
+    }
+    .home_arrow_next {
+        margin-left: 85%;
+    }
+    .home_arrow_next {
+        margin-top: -33vh !important;
+    }
+    .home_arrow_prev {
+        margin-top: -33vh !important;
+    }
+    .home_arrow_prev {
+        height: 45px;
+        width: 45px;
+    }
+    .home_arrow_prev {
+        margin-left: -2% !important;
+        margin-top: -28vh !important;
+    }
+    .home_arrow_prev span img {
+        height: 45px;
+        padding: 6px 7px 21px;
+    }
+    .home_arrow_prev {
+        margin-top: -33.2vh !important;
+    }
+    .fandc_main p{
+        font-size: 18px !important;
+    }
+    .fandc_component p a{
+        font-size: 12px !important;
+    }
+    .fandc_main p {
+        line-height: 35px !important;
+    }
+    .home_arrow_prev span img {
+        padding: 12px 13px 9px !important;
+    }
+}
+@media screen and (max-width :800px) {
+    .testimonial_main_p1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .testimonial_slider_main img {
+        margin-bottom: 460px !important;
+    }
+
+    .testimonial_slider_main_p1 {
+        font-size: 35px;
+    }
+
+    .testimonial_slider_main_p2 {
+        font-size: 20px !important;
+    }
+
+    .testimonial_slider_main_p3 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .testimonial_main_p1 {
+        text-align: center;
+        font-size: 22px !important;
+        line-height: 30px;
+    }
+
+    .testimonial_slider_main img {
+        margin-bottom: 550px !important;
+    }
+
+    .testimonial_slider_main_p1 {
+        font-size: 20px;
+    }
+
+    .testimonial_slider_main_p2 {
+        font-size: 15px !important;
+    }
+
+    .testimonial_slider_main_p3 {
+        font-size: 15px !important;
+    }
+
+    .testimonial_slider_main_p2 {
+        margin-bottom: 5px !important;
+    }
+
+    .testimonial_slider_main img {
+        margin-bottom: 460px !important;
+        height: 28%;
+    }
+}
+.faculty_home_right_top_cover {
+    height: 14vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10% 0%;
+    color: #FFFFFF;
+    margin: 1% 2.05%;
+    text-transform: uppercase;
+}
+.faculty_home_right_top_cover::after {
+    content: "";
+    background: url(../image/faculty_home_right_top_cover.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 520px) {
+    .faculty_home_right_top_cover{
+        height: 20vh;
+        font-size: 20px;
+        margin: 1% 1.05%;
+    }
+}
+
+/* testimonial css end  */
+/* * Sau Link */
+.sau_link{
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    /* margin-top: 2px; */
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sau_link a{
+    color: white !important;
+}
+.sau_link a:hover{
+    color: rgb(4, 194, 4) !important;
+}
+@media screen and (max-width:520px) {
+    .sau_link{
+        font-size: 8px;
+        padding: 0% 16%;
+        line-height: 16px;
+    }
+}
+
+/* FandC */
+.fandc {
+    margin: 2vh 5.4vw 2vh 7.6vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border:6px solid #E0E0E0;
+}
+.fandc_left{
+    background: url("../image/fandc_bg_img.png");
+    background-attachment: fixed;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 65px 0px;
+}
+.fandc_left p{
+    color: #fff;
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 35px;
+    margin: 0 60px;
+    font-weight: bold;
+    
+    /* line-height: 350px; */
+}
+.fandc_right{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    padding: 80px 50px;
+}
+.fandc_right li{
+    list-style: none;
+    margin: 20px 0px;
+}
+.fandc_right a{
+    cursor: pointer;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline !important;
+}
+
+@media screen and (max-width:520px) {
+    .fandc {
+        margin: 2vh 5vw 5vh 8vw !important;
+    }
+    .fandc_left{
+        width: 100%;
+        border-bottom: 4px solid  #036db4;
+    }
+    .fandc_right{
+        width: 100%;
+        padding: 22px 24px;
+    }
+    .fandc_left p {
+
+        font-size: 28px;
+        margin: 0 30px;
+       
+    }
+    .fandc_right a {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 400px ) {
+    .fandc {
+        margin: 2vh 5vw 5vh 4.8vw !important;
+    }
+}

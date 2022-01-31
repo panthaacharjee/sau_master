@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+
+
+/* contact cover start css  */
+.about_sau_top_link{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 1%;
+    /* margin: 0vh 5vw 0vh 5vw; */
+}
+.why_library_cover {
+    margin-top: 16vh !important;
+}
+@media screen and (max-width:520px) {
+    .about_sau_top_link{
+        font-size: 12px;
+        padding-bottom: 3%;
+    }
+    .why_library_cover{
+        margin-top: 12.3vh!important;
+    }
+}
+
+
+.why_library_cover_top_link {
+    display: flex;
+    /* margin-bottom: 15px; */
+    padding: 10px 0px;
+    font-size: 16px !important;
+    margin-top: 125px;
+}
+
+.why_library_cover_top_link img {
+    height: 12px;
+    margin-bottom: 4px;
+}
+
+.why_library_cover_main {
+    padding: 0 !important ;
+}
+@media screen and (max-width:500px) {
+    .why_library_cover_main {
+        padding: 0px  19px!important;
+    }
+}
+@media screen and (max-width: 380px) {
+    .why_library_cover_main {
+        padding: 0px  15px!important;
+        margin-top:-20px ;
+    }
+}
+
+.why_library_img {
+    height: 20vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 12%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.why_library_img::after {
+    content: "";
+    background: url(../image/contact_cover.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.why_library_img img {
+    height: 10px;
+    margin-top: 15px;
+}
+
+.why_library_cover_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #153E90;
+}
+
+
+.why_library_cover_bottom a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24.052px;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 12px;
+}
+
+/* contact cover css end  */
+
+
+
+
+
+/* why library css start  */
+.why_library {
+
+    margin: 20px 0px;
+}
+
+.why_library_main {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+    box-sizing: border-box;
+}
+
+.why_library_left {
+    padding: 0% 1% 0% 0%;
+}
+
+.why_library_right {
+    padding: 0% 0% 0% 1%;
+}
+
+.why_library_right_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.why_library_right_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.4633px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+    margin-top: 20px;
+}
+
+/* why library_css responsive start  */
+
+@media screen and (max-width :800px) {
+    .why_library_cover_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
+
+@media screen and (max-width :520px) {
+    .why_library_img {
+        font-size: 18px !important;
+        line-height: 18px;
+        margin-top: -20px;
+    }
+
+    .why_library_img img {
+        height: 4px !important;
+        margin-top: -4px !important;
+    }
+
+    .why_library_cover {
+        margin-top: 10vh 3%;
+    }
+    .why_library_cover_top_link{
+        font-size: 12px;
+    }
+    .why_library_cover_top_link {
+        font-size: 12px !important;
+        margin-top: 0px;
+    }
+    .why_library {
+        margin: 20px 4%;
+    }
+}
+@media screen and (max-width :600px) {
+    .why_library_cover {
+        margin: 10vh 4% 2vh, 4%;
+    }
+    .why_library {
+        margin: 20px 4%;
+    }
+    .campus_offer_card_main{
+        margin: -23px 4%;
+    }
+.campus_offer_card_component {
+    width: 92% !important;
+}
+}
+
+/* why library_css responsive end  */
+
+/* why library_css end  */
+
+
+
+
+/* campus offer card css atrt  */
+.campus_offer_card_main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.campus_offer_card_component {
+    width: 31%;
+    padding: 1% 1% 0% 1%;
+    border: 0.812598px solid #C8BCBC;
+    box-sizing: border-box;
+    margin: 1% 0%;
+}
+
+.campus_offer_card_component_img {
+    width: 100%;
+    height: 207px !important;
+}
+
+.campus_offer_card_component_bottom_a {
+    text-decoration: none !important;
+}
+
+.campus_offer_card_component_bottom {
+    display: flex;
+    align-items: center;
+    padding: 3% 1%;
+}
+
+.campus_offer_card_component_bottom p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.campus_offer_card_component_bottom img {
+    height: 18px;
+}
+
+.view_gallery_div {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    margin: 1% 0% 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.view_gallery {
+    text-align: center;
+    background: #000000;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.view_gallery:hover {
+    color: #FFFFFF;
+}
+
+/* campus offer card responsive css start  */
+@media screen and (max-width :800px) {
+    .why_library_main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why_library_right {
+        padding: 0% 0% 0% 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 4% 0%;
+    }
+}
+@media screen and (max-width :600px) {
+    .why_library_main {
+        flex-wrap: wrap;
+        margin-top: -9px;
+    }
+
+    .why_library_left {
+        height: 20% !important;
+        width: 100%;
+    }
+
+    .why_library_left img {
+        width: 100% !important;
+        height: 20% !important;
+    }
+
+    .why_library_right_p1 {
+        font-size: 18px !important;
+    }
+
+    .why_library_right_p2 {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 8%;
+        padding: 0px 5px;
+    }
+    .why_library_right_p2 span{
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: -4%;
+    }
+
+    .campus_offer_card_component {
+        width: 92% !important;
+        margin: 1% 0%;
+        margin-bottom: 2% !important;
+    }
+
+    .campus_offer_card_component_bottom p {
+        font-size: 18px;
+    }
+
+    .view_gallery {
+        font-size: 14px;
+        padding: 6px 18px;
+        margin: 0% 0% 4%;
+    }
+}
+
+/* campus offer card responsive css end  */
+
+/* campus offer card css end  */
+
+
+/* Sau Link */
+.sau_link{
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    /* margin-top: 2px; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.sau_link a{
+    color: white !important;
+}
+.sau_link a:hover{
+    color: #187AF1 !important;
+}
+@media screen and (max-width:520px) {
+    .sau_link{
+        font-size: 8px;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-height:700px) {
+    .why_library_cover {
+        margin-top: 21vh !important;
+    }
+}
+@media screen and (max-height:550px) {
+    .why_library_cover {
+        margin-top: 28vh !important;
+    }
+    .nav_main {
+        height: 23vh;
+    }
+}
+.information_bottom_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+    margin-top: 20px;
+}
+.information_bottom_p li{
+    list-style-type: square;
+}

@@ -1,0 +1,1808 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+ 
+}
+html, body{
+    overflow-x: hidden;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+
+
+
+
+.faculty_home_top_link {
+    display: flex;
+    align-items: center;
+    padding: 10px 1.5%;
+    /* margin-top: 125px; */
+    font-size: 14px;
+}
+
+.faculty_home_top_link a img {
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.faculty_home_right_top_cover {
+    height: 20vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10% 0%;
+    margin: 18px 1%;
+    color: #FFFFFF;
+}
+
+.faculty_home_right_top_cover p {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.faculty_home_right_top_cover img {
+    display: none;
+}
+
+.faculty_home_right_top_cover::after {
+    content: "";
+    background: url(../image/faculty_home_right_top_cover.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.faculty_home_right_t_details {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    /* margin-top: 20px; */
+    border: 8px solid #E9E9E9;
+}
+
+.faculty_home_right_t_details img {
+    height: 230px;
+}
+
+.t_details {
+    padding: 3%
+}
+
+.t_details_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #000;
+    margin-top: 25px;
+}
+
+.t_details_f{
+    color: #000;
+}
+.t_details_p span {
+    font-weight: bold !important;
+}
+
+.t_details_heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000;
+}
+
+.t_discription {
+    padding: 5%;
+    border-bottom: 2px solid #E9E9E9;
+    border-right: 2px solid #E9E9E9;
+    border-left: 2px solid #E9E9E9;
+    box-sizing: border-box;
+}
+.seemore_btn{
+    color: rgb(34, 163, 8);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* faculty home responsive  start  */
+@media screen and (max-width :880px) {
+    .faculty_home_right_t_details {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .t_details_p {
+        text-align: center;
+    }
+
+    .t_details_heading {
+        text-align: center;
+    }
+
+    .dropdown_single {
+        width: 100% !important;
+    }
+    .faculty_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+}
+
+
+@media screen and (max-width :520px) {
+    .dept_home_left_item {
+        display: none !important;
+    }
+
+    .sau_library_btn {
+        display: flex !important;
+        z-index: 1000 !important;
+    }
+
+    .faculty_home_right_top_cover {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 29% 4% 9%;
+        height: 29vh;
+    }
+
+    .faculty_home_right_top_cover img {
+        height: 4px !important;
+
+    }
+    .faculty_home_right_top_cover p {
+        width: 100%;
+        padding: 0% 16px;
+        font-size: 18px;
+    }
+
+    .faculty_home_main {
+        margin-top: 5vh;
+    }
+    .faculty_home_top_link{
+        font-size: 12px;
+        margin-left: 7px;
+    }
+    .faculty_home_right_t_details img {
+        height: 170px;
+    }
+    .t_details_p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .t_details_f{
+        margin-top: 25px;
+        font-size: 15px;
+        color:black;
+        text-align: center;
+    }
+    .t_details_heading{
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+
+/* dept css start  */
+
+.dept_cover {
+    background-image: url(../image/inter_student_covewr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0vh;
+}
+
+.dept_cover_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.dept_cover_main p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 80%;
+    padding-top: 15vh;
+}
+
+.dept_cover_main img {
+    width: 200px;
+    display: none;
+}
+
+.sau_dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
+
+.sau_dialog h1 {
+    color: #049906;
+}
+
+.sau_dialog a {
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 270px;
+    text-align: center;
+}
+
+.sau_dialog a:hover {
+    color: #ffff;
+    background-color: #049906;
+}
+
+.mfp-close {
+    color: #ffff;
+    font-size: 50px;
+}
+
+.mfp-close:hover {
+    color: #049906;
+}
+
+
+
+.sau_library_btn:hover {
+    color: #ffff;
+}
+.sau_library_btn img{
+    width: 70px;
+    height: 78px;
+}
+
+/* dept css responsive start  */
+@media screen and (max-width :800px) {
+
+    .welcome_dean_left img {
+
+        height: 400px !important;
+        width: 300px !important;
+        /* margin: auto auto !important; */
+        margin: 0% -77% 3% 25%;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .dept_cover {
+        margin-top: 8vh;
+    }
+
+    .dept_cover_main p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: -9vh;
+    }
+
+    .dept_cover_main img {
+        height: 6px;
+    }
+
+    .dvm_link p {
+        padding: 4px 0px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .welcome_dean_left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome_dean_left img {
+        width: 50% !important;
+    }
+
+    .welcome_dean_right_p1 {
+        font-size: 18px !important;
+        line-height: 3px !important;
+        padding: 20px 0px 0px !important;
+    }
+
+    .welcome_dean_right_p2 {
+        font-size: 12px !important;
+        line-height: 15px !important;
+        margin: 7px 0px !important;
+    }
+}
+
+/* dept css responsive end  */
+/* dept css end  */
+
+
+/* welcome dean css start  */
+
+.welcome_dean_container {
+    padding: 2vh 5vw 0vw 5vw;
+    height: 10%;
+}
+
+.dvm_link {
+    border-bottom: 0.5px solid #000000;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+.dvm_link p {
+    padding: 14px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #049906;
+}
+
+.dvm_link p a {
+    color: #049906;
+}
+
+.welcome_dean_right {
+    background: #0C380C;
+    padding: 2%;
+}
+
+.welcome_dean_left img {
+    width: 100%;
+    height: 100% !important;
+}
+
+.welcome_dean_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome_dean_right_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34.101px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.welcome_dean_right_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin: 30px 0px !important;
+}
+
+.welcome_dean_right_p3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width :520px) {
+    .welcome_dean_right_p2 {
+        font-size: 12px !important;
+        line-height: 15px !important;
+        margin: 7px 0px !important;
+    }
+
+    .welcome_dean_right_p3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+/* welcome dean css end  */
+
+/* our strenght css start  */
+.our_strength {
+    margin-top: 40px;
+}
+
+.our_strength_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.our_strength_component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our_single_component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_single_component img {
+    height: 70px;
+}
+
+.our_strength_single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 3%;
+}
+
+.highlights_components:hover {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components img {
+    margin-right: 15px;
+}
+
+.highlights_components:onclick {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components p:hover {
+    color: #ffff;
+}
+
+.our_single_component p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 82px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 0% 15%;
+}
+
+.our_strength_single_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 15px 0px;
+}
+.our_single_component i{
+    font-size: 46px;
+    color: #2B7132;
+}
+.highlights_collapse_component {
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    margin-top: 20px;
+}
+
+.highlights_collapse_component a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.2003px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #007bff;
+}
+
+.highlights_collapse_component img {
+    height: 150px;
+}
+
+.highlights_collapse_component_details {
+    flex: 4;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.highlights_collapse_component_details_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.9286px;
+    line-height: 33px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.highlights_collapse_component_details_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20.4058px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.highlights_collapse_component_details_p3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.4432px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.highlights {
+    margin: 30px 0px 50px 0px;
+}
+
+.highlights_components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EDEDED;
+    margin-top: 20px;
+}
+
+.highlights_components::before {
+    background-color: red;
+}
+
+.dept_home_highlights_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.highlights_components p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    padding: 15px;
+    padding-right: 25% !important;
+    color: #000000;
+}
+
+.highlights_components:hover {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components img {
+    margin-right: 15px;
+}
+
+.highlights_components:onclick {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components p:hover {
+    color: #ffff;
+}
+
+
+.highlights_single {
+    display: flex;
+    align-items: center;
+
+    padding: 10% 0%;
+}
+
+.highlights_single img {
+    height: 25px !important;
+    transform: rotate(270deg);
+    /* transform-origin: 20% 40%; */
+}
+
+.highlights_single p {
+    font-size: 18px;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.highlights_single {
+    padding: 2% 0%;
+}
+
+@media screen and (max-width :900px) {
+    .our_single_component img {
+        height: 50px;
+    }
+
+    .our_single_component p {
+        font-size: 50px;
+    }
+
+    .our_strength_single_p1 {
+        font-size: 24.8135px;
+        line-height: 10px;
+    }
+
+    .our_strength_single {
+        padding: 4% 5%;
+    }
+
+    .dept_cover_main p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .dept_home_left {
+        display: none !important;
+    }
+
+    .our_strength_p1 {
+        font-size: 24px;
+    }
+
+    .our_single_component img {
+        height: 70px;
+    }
+
+    .our_strength_component {
+        flex-wrap: wrap;
+    }
+
+    .our_strength_single {
+        width: 100%;
+    }
+
+    .our_single_component img {
+        height: 40px;
+    }
+
+    .our_single_component p {
+        font-size: 40px;
+    }
+
+    .our_strength_single_p1 {
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+
+    .our_strength_single {
+        padding: 5% 5%;
+    }
+
+    .dept_home_highlights_p1 {
+        font-size: 24px !important;
+    }
+
+    .highlights_components p {
+        font-size: 17px !important;
+        line-height: 31px !important;
+        padding-right: 0% !important;
+        padding: 9px !important;
+    }
+
+    .highlights_components img {
+        padding: 10px 0px!important;
+    }
+
+    .dept_green_campus_main {
+        flex-wrap: wrap !important;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .services {
+        padding: 10px 0px !important;
+        margin-bottom: -42px!important;
+    }
+
+    .card-img-top {
+        height: 170px !important;
+    }
+
+    .dvm_link {
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .welcome_dean_left img {
+        margin: 10px;
+    }
+    .highlights_single img{
+        height: 20px;
+    }
+    .highlights_single p{
+        font-size: 15px;
+    }
+}
+
+
+
+/* glance css start  */
+
+/* glance css start  */
+.glance {
+    padding: 20px 0px;
+}
+
+.glance_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0%;
+}
+
+.glance_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.glance_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.glance_left_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #000000;
+    text-align: center;
+}
+
+.glance_right img {
+    height: 134px !important;
+    padding: 3px;
+}
+
+
+.glance_left img {
+    height: 87px;
+    padding: 5px;
+}
+
+.glance_right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* flex-wrap: wrap; */
+    width: 100% !important;
+}
+
+.glance_right img {
+    height: 100px;
+}
+
+/* glance responsive css start  */
+
+@media screen and (max-width :800px) {
+    .glance_main {
+        flex-wrap: wrap !important;
+    }
+
+    .glance_right img {
+        height: 100% !important;
+        width: 100%;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .glance_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+    .glance_main{
+        justify-content: center;
+    }
+    .glance_left{
+        width: 100%;
+       margin-bottom: 30px;
+    }
+    .glance_right{
+        margin-top: 15px;
+    }
+    .glance_right img {
+        height: 100% !important;
+        width: 100%;
+        padding: 1%;
+        display: none;
+    }
+    .glance_right img:nth-child(1){
+        display: block;
+    }
+}
+
+@media screen and (max-width :500px) {
+    .glance_main {
+        display: block !important;
+    }
+    .glance_left_p2 {
+        font-size: 16px !important;
+    }
+
+}
+
+/* glance responsive css end  */
+
+/* glance css end  */
+/* our strength css end  */
+
+
+/* dept_home css start  */
+
+
+.dept_home {
+    padding: 14vh 5vw 5vh 5vw;
+}
+
+.dept_home_main {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.dva_home_top_link {
+    display: flex;
+    /* margin: 0px 0px 15px 0px; */
+    padding: 10px 0px 10px;
+    font-size: 12px;
+}
+
+.dva_home_top_link img {
+    height: 12px;
+    margin-bottom: 4px;
+}
+
+.dept_home_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #153E90;
+    padding: 15px 20px 15px 15px;
+    margin-bottom: 3px;
+    border-bottom: 4px solid #187AF1;
+    color: #ffff;
+}
+
+.dept_home_box img {
+    width: 10% !important;
+    margin: 0% 10px !important;
+    cursor: pointer;
+}
+
+.dept_home_item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dept_home_box a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.6034px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.dept_home_left_item_top {
+    display: flex;
+    align-items: center;
+    /* background-color: #000000; */
+    padding: 4%;
+}
+
+.dept_home_left_item_top p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.dept_home_left_item_top img {
+    height: 20px !important;
+    width: 30px !important;
+}
+
+.dept_home_left_item_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.dept_home_left_item_bottom a {
+    background: #fff;
+    width: 100%;
+    text-decoration: none !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    border: 1px solid #e4e4e4;
+    color: #000000;
+    padding: 5%;
+}
+
+.dept_home_left_item_bottom a:hover {
+    background-color: #049906;
+    color: #ffff;
+}
+
+
+.dept_home_overview_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.9697px;
+    line-height: 57px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+    margin-bottom: 30px !important;
+}
+
+.dept_home_overview_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.highlights {
+    margin: 10px 0px 50px 0px;
+}
+
+.highlights_components {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: #EDEDED;
+    margin-top: 20px;
+}
+
+
+.dept_home_highlights_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.highlights_components p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    padding: 15px;
+    padding-right: 25% !important;
+    color: #000000;
+}
+
+.dept_home_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.dept_home_left img {
+    margin: 2px 0px 2px 0px;
+    width: 100%;
+    display: none;
+}
+
+.dept_home_box img {
+    width: 10% !important;
+}
+
+
+
+
+.dept_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.dept_right_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.dept_date_discription {
+    display: flex;
+    align-items: center;
+}
+
+.dept_single_date_discription {
+    display: flex;
+    align-items: center;
+}
+
+.dept_caloander_card {
+    position: relative;
+    width: 88px;
+    height: 120px;
+    background: #060606;
+
+}
+
+.dept_calander_front_card {
+    position: absolute;
+    width: 88px;
+    height: 40px;
+    background: #049906;
+    margin-top: -40px;
+}
+
+.dept_calander_front_card_news {
+    background-color: #049906 !important;
+}
+
+.dept_notice {
+    margin-top: 20px;
+}
+
+.dept_notice_left {
+    margin: 15px 0px;
+}
+
+.dept_calander_front_card p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+
+.dept_calander_front_card p {
+    padding-top: 3px;
+}
+
+.dept_caloander_card_date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.2069px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 10;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.dept_notice_details_notice_P2 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin: 8px 0px !important;
+}
+
+.dept_notice_details_notice_P2 {}
+
+.dept_notice_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dept_notice_details {
+    padding-left: 45px;
+}
+
+.dept_notice_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 30px !important;
+}
+
+.dept_notice_details_notice_P {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+    font-weight: bold;
+}
+
+.dept_notice_details_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #049906;
+}
+
+.dept_notice_view_more {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2717px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+    background-color: #1882FF;
+    padding: 15px 40px;
+    margin-left: -15px;
+}
+
+.dept_latest_news_view_more {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2717px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+    padding: 15px 40px;
+    margin-left: -15px;
+    background-color: #049906;
+}
+
+.dept_notice_right_bottom {
+    margin-bottom: 60px;
+}
+
+.dept_read_me {
+    display: flex;
+    align-items: center;
+    padding: 7px 0px;
+}
+
+.dept_read_me p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    margin: 0 0 0px;
+    color: red;
+    margin-right: 5px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.dept_notice_mid_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* dept home css end  */
+
+/* glance css start  */
+.dept_green_campus {
+    padding: 30px 0px;
+}
+
+.dept_green_campus_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.dept_green_campus_left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0% 0%;
+}
+
+.dept_green_campus_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px !important;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.dept_green_campus_left_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.464px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #000000;
+    text-align: center;
+}
+
+.dept_green_campus_right img {
+    height: 140px !important;
+    padding: 3px;
+
+}
+
+
+.dept_green_campus_left img {
+    height: 170px;
+    padding: 15px;
+}
+
+.dept_green_campus_right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+
+}
+
+.dept_green_campus_right img {
+    height: 100px;
+}
+
+/* glance css end  */
+
+
+/* services css start  */
+.services {
+    padding: 0px 0px;
+}
+
+.services_main {
+    justify-content: space-between !important;
+}
+
+.card {
+    /* margin: 0px 1.5%; */
+}
+
+.card-body {
+    background: #f9f9f9 !important;
+    padding: 1rem !important;
+    color: #ffff !important;
+}
+
+.services_arrow_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #000;
+    margin-top: 8px;
+}
+
+.services_arrow_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+
+.services_card_bottom_link {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.services_card_bottom_link img {
+    height: 10px;
+}
+.services_card_bottom_link p a{
+    color: #000;
+    text-decoration: none;
+}
+.services_card_bottom_link p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #000;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 130px !important;
+    border-bottom: 5px solid #049906;
+}
+
+@media screen and (max-width :800px) {
+    .dept_home {
+        /* padding: 9vh 5vw 5vh 5vw; */
+    }
+}
+
+@media screen and (max-width :520px) {
+    .dept_home {
+        padding: 0vh 0vw 5vh 0vw;
+    }
+    .card-img-top {
+        height: 180px !important;
+    }
+
+    .card {
+        margin-bottom: 10px !important;
+    }
+
+    .sau_library_btn {
+        display: flex;
+        z-index: 1000;
+    }
+
+    .highlights_collapse_component img {
+        height: 90px ;
+    }
+
+    .highlights_collapse_component_details_p1 {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .highlights_collapse_component_details_p2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 3px;
+    }
+
+    .highlights_collapse_component_details_p3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .highlights_collapse_component a {
+        font-size: 14px;
+    }
+
+    .dept_green_campus_right img {
+        height: auto !important;
+        height: 200px !important;
+        padding: 3px;
+        width: 100% !important;
+    }
+
+    .sau_library_btn {
+        margin-left: 75%;
+        margin-bottom: 4%;
+    }
+    .dept_notice_p1{
+        font-size: 24px;
+    }
+    .t_discription{
+        font-size: 14px;
+    }
+    .dept_notice_details_notice_P2 {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        margin: 8px 0px !important;
+    }
+    .dept_notice_details_notice_P {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .dept_calander_front_card {
+        height: 43px;
+        padding: 2px 0px;
+    }
+    .dept_home_main {
+        display: flex;
+        margin-top: -20px;
+    }
+    .our_strength {
+        margin-top: 18px;
+    }
+    .highlights {
+        margin: 10px 0px 21px 0px;
+    }
+    .glance {
+        padding: 8px 0px;
+    }
+}
+
+@media screen and (max-width :420px) {
+    .sau_library_btn {
+        margin-left: 70%;
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sau_library_btn {
+        margin-left: 65%;
+        margin-bottom: 4%;
+    }
+}
+
+/* services css end  */
+
+
+/* Sau Link */
+.sau_link{
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    /* margin-top: 2px; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.sau_link a{
+    color: white !important;
+}
+.sau_link a:hover{
+    color: #187AF1 !important;
+}
+
+@media screen  and (max-width:520px) {
+    .sau_link{
+        font-size: 8px;
+        padding: 0% 4%;
+        line-height: 20px;
+    }
+    .sau_link p{
+        font-size: 8px;
+        margin-top: 17px;
+    }
+    
+}
+
+@media screen and (max-width : 350px) {
+    .dept_home {
+        padding: 1.8vh 0vw 5vh 0vw;
+    }
+}
+
+/*  */
+.sau_library_btn {
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    top: 63vh;
+    right: 0;
+    margin-right: 10%;
+    margin: 1%;
+    display: none;
+    /* border-radius: 10px; */
+    /* height: 63px;
+    width: 66px; */
+    /* box-shadow: 0px 4px 16px rgb(0 0 0 / 52%); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* color: #fff;
+    background: white; */
+    /* border: 2px solid #153E90; */
+    /* text-decoration: none !important; */
+    /* font-weight: bold; */
+    /* text-align: center; */
+    
+}
+
+.sau_dialog h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    margin-top: 20px;
+}
+
+.sau_library_btn img {
+    width: 92px;
+    height: 89px;
+    box-shadow: 0px 0px 4px 16px rgb(0 0 0 / 52%);
+
+}
+.sau_dialog a {
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 360px;
+    text-align: center;
+    border: 2px solid rgb(39, 190, 39);
+}
+@media screen and (max-width:380px) {
+    .sau_dialog a{
+        width: 280px;
+    }
+    
+}
+.mfp-close{
+    color: #000;
+}
+
+
+/* Notice Start */
+.dept_notice{
+    border: 5px solid #f6f6f6;
+    padding: 3% 3%;
+}
+.dept_notice tbody tr{
+    border-top: 2px solid #bdbbbb91;
+    margin-left: 20px;
+}
+
+.dept_notice tr:nth-last-child(){
+    border-bottom: none;
+}
+.table thead{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+.table thead th{
+    border-top: none !important;
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+.dept_notice td{
+    padding: 15px 0px;
+    border-top: none !important;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #000;
+    /* border-bottom: 1px solid rgb(121, 121, 121); */
+    margin-top: 11px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    padding-right: 30px;
+}
+.notice_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice_btn a{
+    text-decoration: none;
+    border: 1px solid #949494;
+    padding: 6px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 98px;
+    height: 36px;
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+}
+.table tbody:nth-last-child(tr){
+    border-bottom: none !important;
+}
+.notice_btn_r{
+    background: linear-gradient(180deg, #1EAD3D 0%, #2B7132 100%);;
+    border-radius: 5px;
+    border: none !important;
+    padding-top: 7px !important;
+    color: #fff !important;
+    text-align: center;
+}
+.notice_btn_h{
+    display: none;
+    margin-top: 10px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 0rem;
+    color: #212529;
+}
+
+@media screen and (max-width:520px) {
+    .dept_notice{
+        padding: 6% 3%;
+    }
+    .dept_notice td{
+        font-size: 16px;
+    }
+    .notice_btn{
+        display: none;
+    }
+    .notice_btn_h{
+        display: block;
+        margin-top: 22px
+        
+    }
+    .notice_btn_h a{
+        text-decoration: none;
+    border: 1px solid #949494;
+    padding: 6px 15px;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+    width: 110px;
+    height: 36px;
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+    }
+    .notice_btn_h .notice_btn_r{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-height:800px) {
+    #small-dialog{
+        padding: 0px 30px;
+    }
+    .sau_dialog h1{
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .sau_dialog a{
+        width: 256px;
+        padding: 0px 30px;
+    }
+    .mfp-close{
+        font-size: 32px;
+    }
+}
