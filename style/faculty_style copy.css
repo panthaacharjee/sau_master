@@ -3165,11 +3165,21 @@ p {
     }
 }
 /* Degree and courses */
+.conference{
+    margin-bottom: 30px;
+}
 .event_content_conference{
     background-color: rgba(241, 240, 240, 0.781);
     /* height: 250px; */
-    padding: 35px 10px;
-    border-left: 5px solid blue;
+    padding: 15px 0px;
+
+}
+.conference_left_p{
+    text-align: center;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .schedule {
@@ -3177,19 +3187,125 @@ p {
     padding: 22px 0px;
 }
 .event_content {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    background-color: rgb(241, 241, 241);
-    border-left: 3px solid blue;
+
+    margin: 0;
+    margin-top: 2rem !important;
+
+
+}
+.graduate_programs{
+    border-left: 5px solid #1882FF;
+    padding: 20px 0px;
+}
+.phd{
+    border-left: 5px solid #25891C;
 }
 
-.conference_left_p span {
-    color: black;
-}
-.conference_left_p {
-    font-size: 24px;
+.graduate_programs p{
+    font-size: 20px;
+    font-weight: 800;
     font-family: Roboto;
-    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    margin-left: 40px;
+}
+.graduate_programs ul{
+    list-style: none;
+    margin-top: 30px;
+}
+.graduate_programs li{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+.graduate_programs li span{
+    margin-right: 10px;
+}
+
+
+/* Research and Development */
+
+
+.conference_left_p{
     text-align: center;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.reasearch_heading{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.notice_heading{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: normal;
+}
+.notice_heading::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #036A38;
+    width: 250px;
+} 
+.NandN{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+   
+}
+.news{
+    display: flex;
+    margin: 10px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 5px 0px;
+}
+.news_date{
+    background-color: #036A38;
+    text-align: center;
+    padding: 8px 9px;
+    border-radius: 5px;
+    line-height: 7px;
+    color: #fff;
+    margin: 0px 10px;
+   
+}
+.diferent_color{
+    background-color:  #153E90;
+}
+.news_date h6{
+    font-size:16px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 15px;
+    margin-top: 8px;
+    padding: 0px 15px;
+}
+.news_date p{
+  font-size:14px;
+  font-family: Roboto;
+  /* font-weight: 800; */
+  font-style: normal;
+}
+.news_heading{
+  font-size:16px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  
+}
+.news_heading a{
+  color: #000 !important;
 }
