@@ -1578,3 +1578,28 @@ p {
     }
 }
 
+/* Degree and courses */
+.event_content_conference{
+    background-color: rgba(241, 240, 240, 0.781);
+    /* height: 250px; */
+    padding: 35px 10px;
+    border-left: 5px solid blue;
+}
+.event_content_conference img{
+    margin-left: 20px;
+}
+.schedule {
+    font-size: 16px;
+    padding: 22px 0px;
+}
+.event_content {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: rgb(241, 241, 241);
+    border-left: 3px solid blue;
+}
+.event_content img {
+    height: 138px;
+    margin-right: 44px;
+}
